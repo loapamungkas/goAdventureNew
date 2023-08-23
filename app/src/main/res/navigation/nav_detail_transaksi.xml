@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/fragmentDetailTransaksi"
+    android:id="@+id/nav_detail_transaksi">
+
+    <fragment
+        android:id="@+id/fragmentDetailTransaksi"
+        android:name="com.example.goadventure.ui.keranjang.detailtransaksi.DetailTransaksiFragment"
+        tools:layout="@layout/fragment_detail_transaksi" >
+
+    </fragment>
+
+
+</navigation>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_marginTop="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.detail.PaymentSuccessFragment">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_sign_success"/>
+
+    <TextView
+        android:id="@+id/tvTitleSuccess"
+        style="@style/TextView.PoppinsNormal22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Checkout Berhasil !!!"
+        android:textColor="#020202" />
+
+    <TextView
+        android:id="@+id/tvSubtitleSuccess"
+        style="@style/TextView.PoppinsNormal14sp8D92A3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Selamat, Silahkan ambil\nalat ke toko kami"
+        android:textAlignment="center"
+        android:textColor="#020202" />
+
+    <Button
+        android:id="@+id/btnHome"
+        style="@style/Button.Primary"
+        android:layout_width="200dp"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/btnDetail"
+        style="@style/Button.Secondary"
+        android:layout_width="200dp"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Lihat Detail" />
+</LinearLayout>

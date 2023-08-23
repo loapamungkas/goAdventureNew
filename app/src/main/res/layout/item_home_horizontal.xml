@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="220dp"
+    android:orientation="vertical"
+    android:layout_marginLeft="24dp"
+    android:layout_height="190dp"
+    android:background="@drawable/shape_rectangle_8_fff">
+
+    <ImageView
+        android:id="@+id/ivPoster"
+        android:layout_gravity="center"
+        android:layout_width="170dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/iv_sample_1" />
+    <TextView
+        android:id="@+id/tvTitleHorizontal"
+        style="@style/TextView.PoppinsNormal16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:text="Tendaki Moluccas 6 Pro"/>
+    <TextView
+        android:id="@+id/tvHargaHorizontal"
+        style="@style/TextView.PoppinsNormal14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="12dp"
+        android:text="Rp. 20.000"/>
+</LinearLayout>

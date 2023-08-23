@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ui.auth.signin.SigninFragment">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:layout_marginTop="24dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:paddingTop="26dp"
+    android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="16dp"
+            style="@style/TextView.PoppinsNormal16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No Telepon" />
+
+        <EditText
+            android:id="@+id/etNoTelepon"
+            style="@style/EditText.PoppinsNormal14sp"
+            android:hint="Masukan Nomor Telepon"
+            android:layout_marginTop="6dp"
+            android:padding="10dp"
+            android:background="@drawable/shape_rectangle_outline_8_020202"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            style="@style/TextView.PoppinsNormal16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat" />
+
+        <EditText
+            android:id="@+id/etAlamat"
+            style="@style/EditText.PoppinsNormal14sp"
+            android:hint="Masukan Alamat Lengkap"
+            android:layout_marginTop="6dp"
+            android:padding="10dp"
+            android:background="@drawable/shape_rectangle_outline_8_020202"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnSignUpNow"
+            style="@style/Button.Primary"
+            android:textAllCaps="false"
+            android:layout_marginTop="24dp"
+            android:text="Daftar Sekarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
